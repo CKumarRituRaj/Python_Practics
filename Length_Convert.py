@@ -1,0 +1,7 @@
+num=float(input("Enter a value in mili meter "))
+print("Value in centi meter = ",num/10,"centi meter")
+print("Value in deci meter = ",num/100,"deci meter")
+print("Value in meter = ",num/1000,"meter")
+print("Value in deca meter = ",num/10000,"deca meter")
+print("Value in hacto meter = ",num/100000,"hacto meter")
+print("Value in kilo meter = ",num/1000000,"kilo meter")

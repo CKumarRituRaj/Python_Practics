@@ -1,0 +1,5 @@
+num=int(input("Enter your number = "))
+position=int(input("Enter position where you want to erase = "))
+num1= (~(1<<position) & num)
+print("Previous value = ",num)
+print("New value = ",num1)

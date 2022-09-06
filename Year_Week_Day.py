@@ -1,0 +1,6 @@
+day=int(input("Enter days "))
+print("year = ",day//365)
+day=(day-(365*(day//365)))
+print("Week = ",day//7)
+day=(day-(7*(day//7)))
+print("Days = ",day)
