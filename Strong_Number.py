@@ -1,3 +1,4 @@
+#Strong Number (number is equal to sum of factor of each digit)
 num=int(input("enter a number"))
 num1=num
 p=1
