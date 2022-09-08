@@ -1,3 +1,4 @@
+#Armstrong number(Number is equal to sum of each digit of power(number of digit))
 num=int(input("enter a number"))
 num1=num2=num
 p=1
