@@ -1,4 +1,4 @@
-#Neon number
+#Neon number(number is equal to the sum of the digits of its square)
 num=int(input("Enter a number "))
 l=num
 p=0
