@@ -1,4 +1,4 @@
-#Perfect number
+#Perfect number(number is equal to the sum of it's positive Divisors.)
 num=int(input("Enter a number "))
 a=1
 k=0
