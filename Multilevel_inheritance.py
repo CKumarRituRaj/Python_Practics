@@ -1,19 +1,15 @@
-#Multilevel_inheritance////// need to modify
-class Dog():  
-    def bark(self):  
-        print("dog bark")
-class Cat():  
-    def meow(self):  
-        print("Cat Meow")
-class Lion():  
-    def roar(self):  
-        print("Lion Roar")
-class Animal(Dog,Cat,Lion):  
-    def speak(self):  
-        print("Animal Speaking")
+#Multilevel_inheritance
+class Grass():  
+    def eat_grass(self):  
+        print("Deer eat's Grass")
+class Deer(Grass):  
+    def eat_deer(self):  
+        print("Fox eat's Deer")
+class Fox(Deer):  
+    def eat_fox(self):  
+        print("Lion eat's Fox ")
 
-d = Animal()  
-d.bark()  
-d.meow()
-d.roar()
-d.speak()
+d = Fox()  
+d.eat_grass()
+d.eat_deer()
+d.eat_fox()
