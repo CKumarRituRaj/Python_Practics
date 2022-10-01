@@ -5,5 +5,23 @@ print("Before Swap Second Number = ",num1)
 num^=num1
 num1^=num
 num^=num1
-print("After Swap First Number = ",num)
-print("After Swap Second Number = ",num1)
+
+print("\nAfter first swap")
+print("First Number = ",num)
+print("Second Number = ",num1)
+num,num1=num1,num
+print("\nAfter Second swap")
+print("First Number = ",num)
+print("Second Number = ",num1)
+num=num+num1
+num1=num-num1
+num=num-num1
+print("\nAfter Third swap")
+print("First Number = ",num)
+print("Second Number = ",num1)
+num=num*num1
+num1=num//num1
+num=num//num1
+print("\nAfter Forth swap")
+print("First Number = ",num)
+print("Second Number = ",num1)
