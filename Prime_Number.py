@@ -4,7 +4,7 @@ num=int(input("Enter a number = "))
 if(num==0 or num==1):
         flag=1
 else:
-        while(a<num/2):
+        while(a<=num/2):
                 if(num%a==0):
                         flag=1
                 a=a+1
